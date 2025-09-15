@@ -82,7 +82,7 @@ export default function About() {
                     src={member.image || "/placeholder.svg?height=300&width=300"}
                     alt={member.name}
                     fill
-                    className={member.name === "Alhaji Mohammed Maikudi" ? "object-contain p-2 bg-white" : "object-cover"}
+                    className={["Alhaji Mohammed Maikudi", "Sr. Haro Zego-Aziz"].includes(member.name) ? "object-contain p-2 bg-white" : "object-cover"}
                   />
                 </div>
                 <div className="p-6">
