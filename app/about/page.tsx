@@ -188,7 +188,7 @@ const team = [
     name: "Qs Abdullahi Mams",
     role: "Quantity Surveyor",
     bio: "Senior Management",
-    image: "https://res.cloudinary.com/dc5qncppu/image/upload/v1751374652/qsabdullahi_kt13nf.jpg",
+    image: "https://res.cloudinary.com/da8ptobvx/image/upload/v1757933966/Sir_Qs_Abdullahi_r3vrnl.jpg",
   },
   {
     id: 4,
@@ -231,13 +231,6 @@ const team = [
     role: "Quantity Surveyor",
     bio: "Staff",
     image: "https://res.cloudinary.com/da8ptobvx/image/upload/v1757331059/IMG_20230603_150259_2_g4saws.jpg",
-  },
-  {
-    id: 4,
-    name: "Yusuf Abdullahi Muhammad",
-    role: "Development Control Contact",
-    bio: "Staff",
-    image: "https://res.cloudinary.com/da8ptobvx/image/upload/v1757331072/1000023398_drofn4.jpg",
   },
   {
     id: 4,
