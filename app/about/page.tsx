@@ -82,7 +82,7 @@ export default function About() {
                     src={member.image || "/placeholder.svg?height=300&width=300"}
                     alt={member.name}
                     fill
-                    className="object-cover"
+                    className={member.name === "Alhaji Mohammed Maikudi" ? "object-contain p-2 bg-white" : "object-cover"}
                   />
                 </div>
                 <div className="p-6">
@@ -173,7 +173,7 @@ const team = [
     name: "Alhaji Mohammed Maikudi",
     role: "CEO & Founder",
     bio: "With over 17 years of experience in real estate and finance, Alhaji Mohammed leads our vision and strategy.",
-    image: "https://res.cloudinary.com/dc5qncppu/image/upload/v1746001589/ceo_mams_xmohwd.png",
+    image: "https://res.cloudinary.com/da8ptobvx/image/upload/v1757938639/ceo_mams_cjjvmx.jpg",
   },
 
   {
